@@ -4,4 +4,167 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}    
+}
+
+body{
+    font-family: "Barlow";
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:23px 24px 64px 24px;
+}
+
+.PRE-ORDER-button{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#162542;
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.TM-picture{
+    height:40px;    
+}
+
+.typemaster-div{
+    margin:0 24px 24px 24px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #162542;
+    margin-bottom:32px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom:32px;
+    color: #7B8BAD;
+
+}
+
+.button-release{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-button{
+    background-color: #F16718;
+    color: #FFFFFF;
+}
+
+.release-on {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.image-keyboard{
+    width: 100%;
+    margin-left: 24px;
+    border-radius: 20px;   
+}
+
+.middle-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-phone-keyboard-div{
+    background: #F16718;
+    border-radius: 20px;
+    margin-left: -5%;
+}
+
+.image-phone-keyboard{
+    width: 129px;
+    height: 193px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+}
+
+.image-glass-keyboard{
+    width: 220px;
+    height: 193px;
+    border-radius: 20px;
+    margin-right: 24px
+}
+
+.main-mechanical-div{
+  margin:32px 24px 111px 24px;
+  text-align: center;  
+}
+
+.mechanical-header{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #162542;
+    max-width:318px;
+    margin-bottom:24px;
+}
+
+.mechanical-text{
+    max-width:339px;
+}
+
+.main-description{
+    margin: 0px 24px 96px 24px;  
+}
+
+.photos-dives{
+    width: 65px;
+    height: 65px;
+    background: #F16718;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-compatible{
+    width: 25.14px;
+    height: 20px;
+}
+
+.descriptions-header{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    max-width:219px;
+    color: #162542;
+    margin-top:48px;
+    margin-bottom:24px;
+ }
+
+ .descriptions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+ }
+
+ .description-texts{
+    max-width: 328px;
+ }
+
+ footer{
+    margin:0px 52px 50px 51px;
+
+ }
+
+
